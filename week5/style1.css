@@ -1,0 +1,80 @@
+#middle{
+  display: flex;
+  align-items: flex-start;
+  }  
+#matrix{
+  display:flex;
+  width:282px;
+  flex-wrap:wrap;
+  border: 3px solid black;
+}
+#matrix input{
+  width:80px;
+  height: 80px;
+  padding:5px;
+  font-size:24px;
+}
+#info{
+  margin-left: 100px;
+}
+#result{
+  font-size:20px;
+  color:white;
+  border: 1px solid black;
+  background: black;
+  border-width:10px;
+  height: 22px;
+  font-family: Tahoma;
+  border-radius: 8px;
+  width: 85px;
+
+} 
+#nan{
+  font-size: 50px;
+  color:red;
+
+}
+#def{
+  font-size: 25px;
+  font-family: Tahoma, sans-serif;
+
+}
+span{
+  font-weight: bold;
+}
+#determinant{
+  font-size:20px;
+  margin-top: 30px;
+  width: 270px;
+  height: 50px;
+  font-family: Andale Mono , sans-serif;
+  font-weight: bold;
+  background-color: #fff;
+  border-left: 2px solid red;
+  border-radius: 3px;
+  
+
+
+
+}
+#description{
+  font-weight: 100;
+  color:black;
+  font-size: 40px;
+  width: 100%;
+}
+#task1{
+  font-weight:bold;
+  font-family: Andale Mono, monospace;
+  font-size: 25px;
+  color:black;
+}
+body{
+  background: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 50px;
+}
+#arrow{
+  float: right;
+}
