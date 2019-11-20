@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style1.css">
+    <script src="script1.js" defer></script>
+  </head>
+
+  <body>
+    <p id="task1">Task-1</p>
+    <p id="description">Calculate determinant of the given matrix:</p>
+    <div id="middle">
+      <div id="matrix">
+        <input type="text" id="s11"/>
+        <input type="text" id="s12"/>
+        <input type="text" id="s13"/>
+        <input type="text" id="s21"/>
+        <input type="text" id="s22"/>
+        <input type="text" id="s23"/>
+        <input type="text" id="s31"/>
+        <input type="text" id="s32"/>
+        <input type="text" id="s33"/>
+      </div>
+      
+      <div id="info">
+        <div id="result">Result:</div>
+        <div id="nan">NaN</div>
+        <div>|A| = A(EI − FH) − B(DI − FG) + C(DH − EG) = <span id="nan1">NaN</span></div>
+        <p id="def">Definition:</p>
+        <p id="text"><span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry.<br>
+Lorem Ipsum has been the industry's standard dummy text ever since the<br>
+1500s, when an unknown printer took a galley of type and scrambled it to<br>
+make a type specimen book. It has survived not only five centuries, but also<br>
+the leap into electronic typesetting, remaining essentially unchanged.<br> </p>
+    </div>    
+  </div>    
+  <button id="determinant" onclick="calc()"><img id="arrow" src="right-arrow.png">FIND DETERMINANT </button>
+
+  </body>
+
+</html>
